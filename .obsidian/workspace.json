@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2f2d51bc541a1d14",
+        "id": "1182a214dca35718",
         "type": "tabs",
         "children": [
           {
-            "id": "a8b1d46e4dd75d85",
+            "id": "3b081293a026122a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Idea/Electronic_DIY/技术方案设计.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "技术方案设计"
+              "title": "新标签页"
             }
           }
         ]
@@ -80,13 +76,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Idea/Electronic_DIY/技术方案设计.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "技术方案设计 的大纲"
+              "title": "大纲"
             }
           }
         ]
@@ -109,7 +104,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Idea/Electronic_DIY/技术方案设计.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +113,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "技术方案设计 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -164,8 +158,19 @@
               "icon": "lucide-archive",
               "title": "添加笔记属性"
             }
+          },
+          {
+            "id": "729b7839aec8914a",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -179,19 +184,21 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:新建数据库": false
+      "bases:新建数据库": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a8b1d46e4dd75d85",
+  "active": "3b081293a026122a",
   "lastOpenFiles": [
+    "日记/2026-05-13.md",
+    "未命名.base",
+    "Idea/Electronic_DIY/技术方案设计.md",
     "Pasted image 20260513134856.png",
     "Pasted image 20260513134831.png",
     "Idea/Electronic_DIY/电子DIY桌面调研汇报.md",
     "Subject Design/Intelligent_Agriculture_Preface/番茄长势检测系统设计.md",
-    "日记/2026-05-13.md",
     "未命名.canvas",
     "日记",
-    "Idea/Electronic_DIY/技术方案设计.md",
     "Pasted image 20260513131731.png",
     "Pasted image 20260513125825.png",
     "pasternosted.gif",
@@ -200,7 +207,6 @@
     "pasternosterilllustrated.gif",
     "Pasted image 20260513124448.png",
     "Pasted image 20260513124453.png",
-    "Pasted image 20260513123736.png",
     "技术笔记/ROS",
     "技术笔记/MATLAB",
     "技术笔记/Linux/Raspberry",
@@ -209,7 +215,6 @@
     "技术笔记/Web/Database",
     "技术笔记/CorC艹",
     "技术笔记/C井",
-    "技术笔记/C#",
     "技术笔记/Software Environment/Embedded/STM32/STM32 开发环境搭建.md",
     "创建链接.md",
     "欢迎.md",
