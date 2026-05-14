@@ -11,14 +11,10 @@
             "id": "862a58f2927c310f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Subject Design/Intelligent_Agriculture_Preface/番茄长势判断逻辑与图像处理.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "番茄长势判断逻辑与图像处理"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
             }
           }
         ]
@@ -162,24 +158,13 @@
               "icon": "lucide-archive",
               "title": "添加笔记属性"
             }
-          },
-          {
-            "id": "729b7839aec8914a",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,13 +175,16 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
-      "obsidian-git:Open Git source control": false
+      "obshare:分享当前页面": false
     }
   },
   "active": "862a58f2927c310f",
   "lastOpenFiles": [
     "Subject Design/Intelligent_Agriculture_Preface/番茄长势检测系统设计.md",
     "Subject Design/Intelligent_Agriculture_Preface/番茄长势判断逻辑与图像处理.md",
+    "Diary/2026-05-14.md",
+    "Technology Note/开发体验提升/Obsidian Note Synchronize To FeiShu.md",
+    "Technology Note/Linux/Raspberry/System Config.md",
     "Idea/Electronic_DIY/电子DIY桌面调研汇报.md",
     "Diary/2026-05-13.md",
     "2026-05-13.md",
