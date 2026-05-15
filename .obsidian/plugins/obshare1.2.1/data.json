@@ -1,12 +1,24 @@
 {
-  "appId": "7Qe/zWymAOBoUDfqz8bzSBIjNefbepmD90sucNjSSOm4ca1q14dmSqvXYcnyG1BU",
-  "appSecret": "tuFvjPWHboUO17zRN6gUQkWTgojBLTQqhzjQTncuwhiytQTSGIr90mNVFdIbyyKwnw8p9RQbfIrnEkL2",
-  "folderToken": "fUl5aK3Vo1GI6Q06wO8QqFgqGlWuDWS6DigMwK6J+wCWU+dmXhOhrFh2OcSG119lKUuNbQwLWw==",
-  "userId": "2gIOw2UDLtXfZPmzTSGFswMzucaYmh2qq9zhGpulsx2cgaIZ",
-  "uploadHistory": [],
-  "uploadCount": 0,
+  "appId": "X/HnIMeHhgK+wt7L8xbRVH8+dglyo92Ai984OBoxTIUMpPYT6MYsEE9ezFnT9R6P",
+  "appSecret": "qF827QnpbxB5be9cVoGmArLMEiIZ6GNuXW4k2S+AF04tt5GCF9gzjQDQM7sSJv8P1aY12uC7X0owsvk6",
+  "folderToken": "heji+H5sgOPCYSxPoc8TIKE1Rt3XaPV628AUGQ+A4PNTqiYs84MvvHxDazJ/U7Fs0QtlbPJkmw==",
+  "userId": "znvNDYvRpDICpN8PJCX5mK2TW2d88UgycpUAWa3MSiECS9p9",
+  "uploadHistory": [
+    {
+      "title": "番茄长势检测系统设计",
+      "url": "https://ucn9jqn2jycc.feishu.cn/docx/GgXfdYMsxo7gjlx5VNLczNLBnwb",
+      "uploadTime": "2026-05-14 23:09",
+      "docToken": "GgXfdYMsxo7gjlx5VNLczNLBnwb",
+      "permissions": {
+        "isPublic": true,
+        "allowCopy": true,
+        "allowCreateCopy": true
+      }
+    }
+  ],
+  "uploadCount": 1,
   "agreedToTerms": true,
-  "apiCallCount": 1,
+  "apiCallCount": 12,
   "lastResetDate": "2026-05",
   "enableDoubleLinkMode": true,
   "debugLoggingEnabled": false
