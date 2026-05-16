@@ -35,7 +35,8 @@
               "title": "CMake"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -79,27 +80,18 @@
             }
           },
           {
-            "id": "5fa1e29265704242",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "书签"
-            }
-          },
-          {
             "id": "7c4752ed81148a6c",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "followCursor": true,
+                "file": "Technology Note/CorC艹/CMake.md",
+                "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "CMake 的大纲"
             }
           }
         ]
@@ -182,7 +174,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,15 +185,16 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:新建数据库": false,
+      "bases:新建数据库": true,
       "obshare:分享当前页面": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "862a58f2927c310f",
+  "active": "52f7a70485a0ca98",
   "lastOpenFiles": [
-    "Technology Note/CorC艹/CMake.md",
     "Technology Note/Embedded/RTOS/FreeRTOS.md",
+    "未命名.base",
+    "Technology Note/CorC艹/CMake.md",
     "Technology Note/Embedded/RTOS",
     "Diary/2026-05-15.md",
     "Diary/2026-05-14.md",
@@ -214,7 +208,6 @@
     "Diary",
     "Idea/Electronic_DIY/技术方案设计.md",
     "日记/2026-05-13.md",
-    "未命名.base",
     "Pasted image 20260513134856.png",
     "Pasted image 20260513134831.png",
     "未命名.canvas",
