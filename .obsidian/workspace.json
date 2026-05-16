@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2026-05-15.md",
+                "file": "Technology Note/CorC艹/CMake.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-05-15"
+              "title": "CMake"
             }
           }
         ]
@@ -185,8 +185,9 @@
   },
   "active": "862a58f2927c310f",
   "lastOpenFiles": [
-    "Diary/2026-05-14.md",
     "Diary/2026-05-15.md",
+    "Technology Note/CorC艹/CMake.md",
+    "Diary/2026-05-14.md",
     "Diary/2026-05-13.md",
     "Subject Design/Intelligent_Agriculture_Preface/番茄长势判断逻辑与图像处理.md",
     "Subject Design/Intelligent_Agriculture_Preface/番茄长势检测系统设计.md",
