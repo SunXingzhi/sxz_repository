@@ -35,8 +35,7 @@
               "title": "CMake"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -198,10 +197,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "52f7a70485a0ca98",
+  "active": "862a58f2927c310f",
   "lastOpenFiles": [
-    "Technology Note/Embedded/RTOS/FreeRTOS.md",
     "Technology Note/CorC艹/CMake.md",
+    "Technology Note/Embedded/RTOS/FreeRTOS.md",
     "Technology Note/Embedded/RTOS",
     "Diary/2026-05-15.md",
     "Diary/2026-05-14.md",
