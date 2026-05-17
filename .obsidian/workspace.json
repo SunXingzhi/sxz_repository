@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technology Note/CorC艹/CMake.md",
+                "file": "Diary/2026-05-17.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CMake"
+              "title": "2026-05-17"
             }
           }
         ],
@@ -85,13 +85,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technology Note/CorC艹/CMake.md",
+                "file": "Diary/2026-05-17.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "CMake 的大纲"
+              "title": "2026-05-17 的大纲"
             }
           }
         ]
@@ -192,11 +192,21 @@
   },
   "active": "52f7a70485a0ca98",
   "lastOpenFiles": [
-    "Technology Note/Embedded/RTOS/FreeRTOS.md",
-    "未命名.base",
-    "Technology Note/CorC艹/CMake.md",
-    "Technology Note/Embedded/RTOS",
     "Diary/2026-05-15.md",
+    "Diary/2026-05-17.md",
+    "Technology Note/Embedded/RTOS/FreeRTOS.md",
+    "Technology Note/CorC艹/Preface.md",
+    "Technology Note/CorC艹/C-Part/C-Standard-Library/stdlib.h.md",
+    "Technology Note/CorC艹/C-Part/C-Standard-Library/stdio.h.md",
+    "Technology Note/CorC艹/C-Part/Environment Configuration.md",
+    "Technology Note/CorC艹/C-Part/C-Standard-Library",
+    "Technology Note/CorC艹/C-Part/C Standard Library.md",
+    "Technology Note/CorC艹/Makefile.md",
+    "Technology Note/CorC艹/C-Part",
+    "Technology Note/CorC艹/C++Part",
+    "Technology Note/CorC艹/CMake.md",
+    "未命名.base",
+    "Technology Note/Embedded/RTOS",
     "Diary/2026-05-14.md",
     "Diary/2026-05-13.md",
     "Subject Design/Intelligent_Agriculture_Preface/番茄长势判断逻辑与图像处理.md",
@@ -223,9 +233,6 @@
     "Technology Note/ROS",
     "Technology Note/MATLAB",
     "Technology Note/Linux/Raspberry",
-    "Technology Note/未命名",
-    "Technology Note/Unit Technology",
-    "Technology Note/Web/Database",
     "Technology Note/Software Environment/Embedded/STM32/STM32 开发环境搭建.md",
     "创建链接.md",
     "欢迎.md",
