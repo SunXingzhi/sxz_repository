@@ -187,8 +187,9 @@
   },
   "active": "862a58f2927c310f",
   "lastOpenFiles": [
-    "Subject Design/Control_Engineering/STM32 HAL tim定时器使用.md",
+    "Subject Design/Control_Engineering/Freertos.md",
     "Subject Design/Control_Engineering/待办清单.md",
+    "Subject Design/Control_Engineering/STM32 HAL tim定时器使用.md",
     "Technology Note/Embedded/STM32/Non-Blocking Design.md",
     "Technology Note/Embedded/RTOS/FreeRTOS.md",
     "Technology Note/Embedded/STM32",
@@ -233,7 +234,6 @@
     "Pasted image 20260513124448.png",
     "Technology Note/ROS",
     "Technology Note/Software Environment/Embedded/STM32/STM32 开发环境搭建.md",
-    "创建链接.md",
     "未命名 2.canvas",
     "未命名 1.canvas"
   ]
