@@ -78,6 +78,16 @@
               "icon": "lucide-list",
               "title": "待办清单 的大纲"
             }
+          },
+          {
+            "id": "b3a50205f421f97e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
           }
         ]
       }
