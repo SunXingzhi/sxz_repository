@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technology Note/Embedded/STM32/Non-Blocking Design.md",
+                "file": "Subject Design/Control_Engineering/待办清单.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Non-Blocking Design"
+              "title": "待办清单"
             }
           }
         ]
@@ -187,8 +187,8 @@
   },
   "active": "862a58f2927c310f",
   "lastOpenFiles": [
-    "Technology Note/Embedded/RTOS/FreeRTOS.md",
     "Technology Note/Embedded/STM32/Non-Blocking Design.md",
+    "Technology Note/Embedded/RTOS/FreeRTOS.md",
     "Technology Note/Embedded/STM32",
     "Subject Design/Control_Engineering/待办清单.md",
     "Pasted image 20260521000006.png",
