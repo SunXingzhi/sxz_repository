@@ -7,6 +7,7 @@ FreeRTOS中的内核对象主要有消息队列(Message Queue), TCB(Task Control
 ### 信号量(Semaphore)
 #### 任务优先级反转
 
+
 ### 互斥量(Mutex)
 
 
