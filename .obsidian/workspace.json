@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Subject Design/Physics_innovation/Idea.md",
+                "file": "Subject Design/Physics_innovation/方案指定.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Idea"
+              "title": "方案指定"
             }
           }
         ]
@@ -197,7 +197,7 @@
   "active": "862a58f2927c310f",
   "lastOpenFiles": [
     "Diary/2026-05-26.md",
-    "Subject Design/Physics_innovation/Idea.md",
+    "Subject Design/Physics_innovation/方案指定.md",
     "Subject Design/Physics_innovation",
     "Subject Design/Control_Engineering/算法优化.md",
     "Subject Design/Control_Engineering/电机驱动设计.md",
