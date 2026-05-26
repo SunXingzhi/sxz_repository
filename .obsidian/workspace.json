@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Subject Design/Intelligent_Agriculture_Preface/番茄长势检测系统设计.md",
+                "file": "Technology Note/Embedded/RTOS/FreeRTOS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "番茄长势检测系统设计"
+              "title": "FreeRTOS"
             }
           }
         ]
@@ -196,13 +196,14 @@
   },
   "active": "862a58f2927c310f",
   "lastOpenFiles": [
+    "Diary/2026-05-26.md",
+    "Technology Note/Embedded/RTOS/FreeRTOS.md",
+    "Subject Design/Control_Engineering/Freertos.md",
+    "Subject Design/Intelligent_Agriculture_Preface/番茄长势检测系统设计.md",
     "Technology Note/Git/使用问题.md",
     "Technology Note/Git/常用命令.md",
-    "Technology Note/Embedded/RTOS/FreeRTOS.md",
     "Technology Note/Git",
-    "Subject Design/Control_Engineering/Freertos.md",
     "Diary/2026-05-24.md",
-    "Subject Design/Intelligent_Agriculture_Preface/番茄长势检测系统设计.md",
     "Subject Design/Control_Engineering/待办清单.md",
     "Subject Design/Control_Engineering/电机驱动.md",
     "Subject Design/Control_Engineering/STM32 HAL tim定时器使用.md",
@@ -230,7 +231,6 @@
     "Technology Note/Embedded/RTOS",
     "Diary/2026-05-14.md",
     "Diary/2026-05-13.md",
-    "Technology Note/开发体验提升/Obsidian Note Synchronize To FeiShu.md",
     "Diary",
     "Pasted image 20260513134856.png",
     "Pasted image 20260513134831.png",
