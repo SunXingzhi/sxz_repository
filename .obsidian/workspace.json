@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "da5cd80f3bcde0ca",
+        "id": "97977f72d13a5725",
         "type": "tabs",
         "children": [
           {
-            "id": "862a58f2927c310f",
+            "id": "59aec0ca7a044263",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Subject Design/Intelligent_Sensor/gazebo Nav2 SLAM建图与机器人导航.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "gazebo Nav2 SLAM建图与机器人导航"
+              "title": "新标签页"
             }
           }
         ]
@@ -194,10 +190,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "862a58f2927c310f",
+  "active": "429d0ddc24eeaa72",
   "lastOpenFiles": [
-    "Technology Note/Embedded/RTOS/FreeRTOS.md",
+    "未命名.canvas",
     "Diary/2026-05-26.md",
+    "Subject Design/Intelligent_Sensor/gazebo Nav2 SLAM建图与机器人导航.md",
+    "Technology Note/Embedded/RTOS/FreeRTOS.md",
     "Subject Design/Physics_innovation/方案指定.md",
     "Subject Design/Writting/电子DIY BP.md",
     "Subject Design/未命名",
@@ -219,7 +217,6 @@
     "Technology Note/Embedded/STM32",
     "Pasted image 20260521000006.png",
     "Subject Design/Control_Engineering",
-    "Subject Design/Intelligent_Sensor/gazebo Nav2 SLAM建图与机器人导航.md",
     "Diary/2026-05-17.md",
     "Technology Note/CorC艹/CMake.md",
     "Diary/2026-05-15.md",
@@ -228,14 +225,12 @@
     "Technology Note/CorC艹/C-Part/C-Standard-Library/stdio.h.md",
     "Technology Note/CorC艹/C-Part/Environment Configuration.md",
     "Technology Note/CorC艹/C-Part/C-Standard-Library",
-    "Technology Note/CorC艹/C-Part/C Standard Library.md",
     "Technology Note/CorC艹/C-Part",
     "Technology Note/CorC艹/C++Part",
     "未命名.base",
     "Technology Note/Embedded/RTOS",
     "Pasted image 20260513134856.png",
     "Pasted image 20260513134831.png",
-    "未命名.canvas",
     "Pasted image 20260513131731.png",
     "Pasted image 20260513125825.png",
     "pasternosted.gif",
