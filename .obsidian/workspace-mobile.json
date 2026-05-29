@@ -170,6 +170,8 @@
   },
   "active": "71b0e70116d46c2f",
   "lastOpenFiles": [
+    "Technology Note/开发体验提升/Obsidian Note Synchronize To FeiShu.md",
+    "Technology Note/Embedded/RTOS/FreeRTOS.md",
     "Technology Note/Git/常用命令.md",
     "Technology Note/Git/使用问题.md",
     "Technology Note/Embedded/STM32/Non-Blocking Design.md",
@@ -205,8 +207,6 @@
     "Technology Note/Embedded/STM32",
     "/Technology Note/Embedded",
     "Technology Note/CorC艹/CMake.md",
-    "Technology Note/CorC艹/C-Part/Environment Configuration.md",
-    "Technology Note/开发体验提升/Obsidian Note Synchronize To FeiShu.md",
-    "Idea/Electronic_DIY/电子DIY桌面调研汇报.md"
+    "Technology Note/CorC艹/C-Part/Environment Configuration.md"
   ]
 }
