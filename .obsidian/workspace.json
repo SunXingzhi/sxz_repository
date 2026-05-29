@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "97977f72d13a5725",
+        "id": "cb38f718b9cd008f",
         "type": "tabs",
         "children": [
           {
-            "id": "59aec0ca7a044263",
+            "id": "743370c4abce8cb6",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/appearance.json",
-                "bFile": ".obsidian/appearance.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: appearance.json  (Working Tree)"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -194,7 +190,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "59aec0ca7a044263",
+  "active": "743370c4abce8cb6",
   "lastOpenFiles": [
     "Subject Design/Control_Engineering/电机驱动设计.md",
     "未命名.canvas",
