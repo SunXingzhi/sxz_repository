@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technology Note/Embedded/RTOS/FreeRTOS.md",
+                "file": "Diary/2026-05-30.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "FreeRTOS"
+              "title": "2026-05-30"
             }
           }
         ]
@@ -70,13 +70,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technology Note/Embedded/RTOS/FreeRTOS.md",
+                "file": "Diary/2026-05-30.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "FreeRTOS 的大纲"
+              "title": "2026-05-30 的大纲"
             }
           },
           {
@@ -195,10 +195,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7c4752ed81148a6c",
+  "active": "59aec0ca7a044263",
   "lastOpenFiles": [
-    "Diary/2026-05-30.md",
     "Technology Note/Embedded/RTOS/FreeRTOS.md",
+    "Diary/2026-05-30.md",
     "Subject Design/Control_Engineering/Freertos.md",
     "Diary/2026-05-28.md",
     "Subject Design/Intelligent_Sensor/gazebo Nav2 SLAM建图与机器人导航.md",
