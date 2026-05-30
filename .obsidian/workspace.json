@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cb38f718b9cd008f",
+        "id": "97977f72d13a5725",
         "type": "tabs",
         "children": [
           {
-            "id": "743370c4abce8cb6",
+            "id": "59aec0ca7a044263",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -179,7 +179,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5
+    "width": 374.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,22 +194,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "743370c4abce8cb6",
+  "active": "59aec0ca7a044263",
   "lastOpenFiles": [
-    "Diary/2026-05-28.md",
-    "Diary/2026-05-26.md",
-    "Diary/2026-05-30.md",
     "Technology Note/Embedded/RTOS/FreeRTOS.md",
-    "Technology Note/Embedded/Preface.md",
-    "Subject Design/Control_Engineering/电机驱动设计.md",
-    "Subject Design/Control_Engineering/算法优化.md",
-    "未命名.canvas",
+    "Subject Design/Control_Engineering/Freertos.md",
+    "Diary/2026-05-30.md",
+    "Diary/2026-05-28.md",
     "Subject Design/Intelligent_Sensor/gazebo Nav2 SLAM建图与机器人导航.md",
+    "conflict-files-obsidian-git.md",
+    "Technology Note/Embedded/Preface.md",
+    "Diary/2026-05-26.md",
+    "Diary/2026-05-13.md",
+    "Diary/2026-05-24.md",
+    "未命名.canvas",
     "Subject Design/Physics_innovation/方案指定.md",
     "Subject Design/Writting/电子DIY BP.md",
     "Subject Design/未命名",
     "Subject Design/Physics_innovation",
-    "Subject Design/Control_Engineering/Freertos.md",
+    "Subject Design/Control_Engineering/算法优化.md",
+    "Subject Design/Control_Engineering/电机驱动设计.md",
     "Subject Design/Control_Engineering/待办清单.md",
     "Idea/Electronic_DIY/电子DIY桌面调研汇报.md",
     "Idea/Electronic_DIY/技术方案设计.md",
@@ -217,7 +220,6 @@
     "Technology Note/Git/使用问题.md",
     "Technology Note/Git/常用命令.md",
     "Technology Note/Git",
-    "Diary/2026-05-24.md",
     "Subject Design/Control_Engineering/STM32 HAL tim定时器使用.md",
     "Subject Design/Intelligent_Agriculture_Preface/番茄长势判断逻辑与图像处理.md",
     "Technology Note/Embedded/STM32/Non-Blocking Design.md",
@@ -227,8 +229,6 @@
     "Diary/2026-05-17.md",
     "Technology Note/CorC艹/CMake.md",
     "Diary/2026-05-15.md",
-    "Technology Note/CorC艹/Preface.md",
-    "Technology Note/CorC艹/C-Part/C-Standard-Library/stdlib.h.md",
     "Technology Note/CorC艹/C-Part/C-Standard-Library",
     "Technology Note/CorC艹/C-Part",
     "Technology Note/CorC艹/C++Part",
