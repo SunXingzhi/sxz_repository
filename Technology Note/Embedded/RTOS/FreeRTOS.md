@@ -10,7 +10,16 @@ FreeRTOS中的内核对象主要有消息队列(Message Queue), TCB(Task Control
 
 #### 任务切换
 ##### Q1: 中进行上下文切换时是如何保留上下文状态的？
-##### Q2: 如何记录一个任务
+实际上内核把每个状态下的任务都存储为链表/列表, 即有一下几个列表: 阻塞列表, 挂起列表, 延时列表 就绪列表等等. 当任务从XX状态->另一个状态, 那么就是在操作这几张表.
+
+##### Q2: 如何记录一个任务此时的上下文信息?
+##### 延时函数
+延时函数分为相对延时(从调用延时函数开始计算指定延时时间), 以及绝对延时(即定时器)
+freertos自带的相对延时函数是:
+###### `vTaskDelay(const TickType_t xTicksToDelay)`
+相对延时
+###### `vTaskDelayUntil( TickType_t * const pxPreviousWakeTime,const TickType_t xTimeIncrement );`
+绝对延时
 
 ### 消息队列(Message Queue)
 Reference:[(39 封私信 / 80 条消息) FreeRTOS源码探析之——消息队列 - 知乎](https://zhuanlan.zhihu.com/p/341506772)
@@ -144,5 +153,7 @@ Good Article:[CubeMX使用FreeRTOS编程指南_cubemx freertos-CSDN博客](https
 | osThreadTerminate     | 停止指定任务           |     |
 | osThreadGetCount      | 获取激活的任务数量        |     |
 | osThreadEnumerate     | 列举激活的任务          |     |
+|                       |                  |     |
+
 ### Semaphore
 ### Message Queue
