@@ -17,13 +17,13 @@ FreeRTOS中的内核对象主要有消息队列(Message Queue), TCB(Task Control
 延时函数分为相对延时(从调用延时函数开始计算指定延时时间), 以及绝对延时(即定时器)
 freertos自带的相对延时函数是:
 ###### `vTaskDelay(const TickType_t xTicksToDelay)`
-相对延时
+
 ###### `vTaskDelayUntil( TickType_t * const pxPreviousWakeTime,const TickType_t xTimeIncrement );`
 绝对延时
 
 ### 消息队列(Message Queue)
 Reference:[(39 封私信 / 80 条消息) FreeRTOS源码探析之——消息队列 - 知乎](https://zhuanlan.zhihu.com/p/341506772)
-
+消息队列被创建后实际上会开辟一块大小为(消息队列控制块 头+队列长度+每个数据结构的字节大小或者叫做消息空间大小)的内存, 后续管理队列就通过消息队列控制块进行管理.
 #### Source Code
 ```C
 QueueHandle_t xQueueGenericCreate( const UBaseType_t uxQueueLength,
@@ -81,7 +81,7 @@ QueueHandle_t xQueueGenericCreate( const UBaseType_t uxQueueLength,
 	return pxNewQueue;
 }
 ```
-
+消息队列的管理可分为读队列和写队列. 无论读还是写, 都可以分为
 ### 信号量(Semaphore)
 信号量一般用于实现同步, 即中断和任务之间or任务和任务之间的资源/状态同步等.
 #### 任务优先级反转
