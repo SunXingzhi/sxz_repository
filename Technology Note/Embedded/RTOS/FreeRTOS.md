@@ -85,6 +85,7 @@ QueueHandle_t xQueueGenericCreate( const UBaseType_t uxQueueLength,
 ### 信号量(Semaphore)
 信号量一般用于实现同步, 即中断和任务之间or任务和任务之间的资源/状态同步等.
 #### 任务优先级反转
+什么是任务优先级反转? 
 ##### 解决方案
 #### Q1: 全局变量和信号量的本质区别?
 裸机开发经常会用到全局变量来实现每个任务间的数据交流通信, 同步等, 但是即使使用`volatile`也会导致数据会发生更改的情况导致判断不成立.
