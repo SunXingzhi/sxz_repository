@@ -15,7 +15,7 @@
               "state": {
                 "file": "Technology Note/Embedded/RTOS/FreeRTOS.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "FreeRTOS"
@@ -195,8 +195,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7c4752ed81148a6c",
+  "active": "c842c26b45ac54ab",
   "lastOpenFiles": [
+    "Pasted image 20260601152215.png",
+    "Pasted image 20260601150557.png",
     "Idea/Electronic_DIY/技术方案设计.md",
     "Idea/Electronic_DIY/电子DIY桌面调研汇报.md",
     "Diary/2026-05-30.md",
@@ -229,7 +231,6 @@
     "Subject Design/Control_Engineering",
     "Diary/2026-05-17.md",
     "Technology Note/CorC艹/CMake.md",
-    "Diary/2026-05-15.md",
     "Technology Note/CorC艹/C-Part/C-Standard-Library",
     "Technology Note/CorC艹/C-Part",
     "Technology Note/CorC艹/C++Part",
@@ -243,7 +244,6 @@
     "pasternosted 1.gif",
     "水平转盘.png",
     "pasternosterilllustrated.gif",
-    "Pasted image 20260513124448.png",
     "未命名 2.canvas",
     "未命名 1.canvas"
   ]
