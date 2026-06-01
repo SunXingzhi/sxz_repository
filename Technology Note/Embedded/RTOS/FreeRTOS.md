@@ -24,7 +24,44 @@ freertos自带的相对延时函数是:
 ### 消息队列(Message Queue)
 Reference:[(39 封私信 / 80 条消息) FreeRTOS源码探析之——消息队列 - 知乎](https://zhuanlan.zhihu.com/p/341506772)
 消息队列被创建后实际上会开辟一块大小为(消息队列控制块 头+队列长度+每个数据结构的字节大小或者叫做消息空间大小)的内存, 后续管理队列就通过消息队列控制块进行管理.
+
+队列的类型主要有:
+基本队列`queueQUEUE_TYPE_BASE`(即最常用的队列), 队列集合(`QUEUE_TYPE_SET`),以及互斥量, 二值信号量, 计数信号量等等.
 #### Source Code
+#### 消息队列控制头
+```C
+typedef struct QueueDefinition 
+{
+
+        int8_t * pcHead;                   
+        int8_t * pcWriteTo;             
+        union{
+                QueuePointers_t xQueue;  
+                SemaphoreData_t xSemaphore;
+        }
+        List_t xTasksWaitingToSend;                     
+        List_t xTasksWaitingToReceive;            
+        volatile UBaseType_t uxMessagesWaiting; 
+        UBaseType_t uxLength;                              
+        UBaseType_t uxItemSize;                          
+        volatile int8_t cRxLock;                               
+
+        volatile int8_t cTxLock;                                
+
+        #if ( ( configSUPPORT_STATIC_ALLOCATION == 1 ) && ( configSUPPORT_DYNAMIC_ALLOCATION == 1 ) )
+                uint8_t ucStaticallyAllocated; 
+        #endif
+        #if ( configUSE_QUEUE_SETS == 1 )
+                struct QueueDefinition * pxQueueSetContainer;
+        #endif
+        #if ( configUSE_TRACE_FACILITY == 1 )
+                UBaseType_t uxQueueNumber;
+                uint8_t ucQueueType;
+        #endif
+} xQUEUE;
+```
+
+#### 创建消息队列
 ```C
 QueueHandle_t xQueueGenericCreate( const UBaseType_t uxQueueLength,
 								   const UBaseType_t uxItemSize,
