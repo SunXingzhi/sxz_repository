@@ -11,14 +11,17 @@
             "id": "c842c26b45ac54ab",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Technology Note/Linux/Make.md",
-                "mode": "source",
-                "source": false
+                "file": "Subject Design/Control_Engineering/步进电机闭环(PID)状态机.canvas",
+                "viewState": {
+                  "x": 151,
+                  "y": 142,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "Make"
+              "icon": "lucide-layout-dashboard",
+              "title": "步进电机闭环(PID)状态机"
             }
           }
         ]
@@ -70,13 +73,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technology Note/Linux/Make.md",
+                "file": "Subject Design/Control_Engineering/步进电机闭环(PID)状态机.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Make 的大纲"
+              "title": "步进电机闭环(PID)状态机 的大纲"
             }
           },
           {
@@ -196,41 +199,40 @@
   },
   "active": "c842c26b45ac54ab",
   "lastOpenFiles": [
+    "Diary/2026-06-02.md",
+    "Subject Design/Control_Engineering/步进电机闭环(PID)状态机.canvas",
     "Diary/2026-06-01.md",
-    "Technology Note/Linux/Make.md",
+    "Subject Design/Control_Engineering/待办清单.md",
     "Subject Design/Control_Engineering/电机驱动设计.md",
+    "Subject Design/Control_Engineering/算法优化.md",
+    "Subject Design/Control_Engineering/Freertos.md",
+    "Subject Design/Control_Engineering/STM32 HAL tim定时器使用.md",
+    "Subject Design/Intelligent_Sensor/gazebo Nav2 SLAM建图与机器人导航.md",
+    "Technology Note/Linux/Make.md",
     "Diary/2026-05-30.md",
     "Idea/Electronic_DIY/电子DIY桌面调研汇报.md",
     "Technology Note/Embedded/RTOS/FreeRTOS.md",
     "Pasted image 20260601152215.png",
     "Pasted image 20260601150557.png",
     "Idea/Electronic_DIY/技术方案设计.md",
-    "Subject Design/Control_Engineering/Freertos.md",
     "Diary/2026-05-28.md",
-    "Subject Design/Intelligent_Sensor/gazebo Nav2 SLAM建图与机器人导航.md",
     "conflict-files-obsidian-git.md",
     "Technology Note/Embedded/Preface.md",
     "Diary/2026-05-26.md",
     "Diary/2026-05-13.md",
     "Diary/2026-05-24.md",
-    "未命名.canvas",
     "Subject Design/Physics_innovation/方案指定.md",
     "Subject Design/Writting/电子DIY BP.md",
     "Subject Design/未命名",
     "Subject Design/Physics_innovation",
-    "Subject Design/Control_Engineering/算法优化.md",
-    "Subject Design/Control_Engineering/待办清单.md",
     "Subject Design/Intelligent_Agriculture_Preface/番茄长势检测系统设计.md",
     "Technology Note/Git/使用问题.md",
     "Technology Note/Git/常用命令.md",
     "Technology Note/Git",
-    "Subject Design/Control_Engineering/STM32 HAL tim定时器使用.md",
     "Subject Design/Intelligent_Agriculture_Preface/番茄长势判断逻辑与图像处理.md",
-    "Technology Note/Embedded/STM32/Non-Blocking Design.md",
     "Technology Note/Embedded/STM32",
     "Pasted image 20260521000006.png",
     "Subject Design/Control_Engineering",
-    "Diary/2026-05-17.md",
     "Technology Note/CorC艹/C-Part/C-Standard-Library",
     "Technology Note/CorC艹/C-Part",
     "Technology Note/CorC艹/C++Part",
