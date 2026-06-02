@@ -11,17 +11,14 @@
             "id": "c842c26b45ac54ab",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Subject Design/Control_Engineering/步进电机闭环(PID)状态机.canvas",
-                "viewState": {
-                  "x": 151,
-                  "y": 142,
-                  "zoom": 0
-                }
+                "file": "Subject Design/Control_Engineering/电机驱动设计.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "步进电机闭环(PID)状态机"
+              "icon": "lucide-file",
+              "title": "电机驱动设计"
             }
           }
         ]
@@ -73,13 +70,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Subject Design/Control_Engineering/步进电机闭环(PID)状态机.canvas",
+                "file": "Subject Design/Control_Engineering/电机驱动设计.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "步进电机闭环(PID)状态机 的大纲"
+              "title": "电机驱动设计 的大纲"
             }
           },
           {
@@ -197,16 +194,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c842c26b45ac54ab",
+  "active": "429d0ddc24eeaa72",
   "lastOpenFiles": [
-    "Diary/2026-06-02.md",
+    "Subject Design/Control_Engineering/STM32 HAL tim定时器使用.md",
+    "Subject Design/Control_Engineering/电机驱动设计.md",
+    "Subject Design/Control_Engineering/MCU算法优化.md",
     "Subject Design/Control_Engineering/步进电机闭环(PID)状态机.canvas",
+    "Diary/2026-06-02.md",
     "Diary/2026-06-01.md",
     "Subject Design/Control_Engineering/待办清单.md",
-    "Subject Design/Control_Engineering/电机驱动设计.md",
-    "Subject Design/Control_Engineering/算法优化.md",
     "Subject Design/Control_Engineering/Freertos.md",
-    "Subject Design/Control_Engineering/STM32 HAL tim定时器使用.md",
     "Subject Design/Intelligent_Sensor/gazebo Nav2 SLAM建图与机器人导航.md",
     "Technology Note/Linux/Make.md",
     "Diary/2026-05-30.md",
