@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2026-05-31.md",
+                "file": "Technology Note/Linux/VMware-Linux.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-05-31"
+              "title": "VMware-Linux"
             }
           }
         ]
@@ -196,8 +196,9 @@
   },
   "active": "743370c4abce8cb6",
   "lastOpenFiles": [
-    "Diary/2026-05-30.md",
     "Diary/2026-05-31.md",
+    "Technology Note/Linux/VMware-Linux.md",
+    "Diary/2026-05-30.md",
     "Technology Note/Embedded/RTOS/FreeRTOS.md",
     "Diary/2026-05-28.md",
     "Diary/2026-05-26.md",
@@ -228,7 +229,6 @@
     "Diary/2026-05-17.md",
     "Technology Note/CorC艹/CMake.md",
     "Diary/2026-05-15.md",
-    "Technology Note/CorC艹/Preface.md",
     "Technology Note/CorC艹/C-Part/C-Standard-Library",
     "Technology Note/CorC艹/C-Part",
     "Technology Note/CorC艹/C++Part",
