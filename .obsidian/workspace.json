@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2026-06-07.md",
+                "file": "Diary/2026-06-05.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-06-07"
+              "title": "2026-06-05"
             }
           }
         ]
@@ -196,8 +196,8 @@
   },
   "active": "c842c26b45ac54ab",
   "lastOpenFiles": [
-    "Diary/2026-06-05.md",
     "Diary/2026-06-07.md",
+    "Diary/2026-06-05.md",
     "Pasted image 20260607225548.png",
     "Subject Design/Control_Engineering/电机驱动设计.md",
     "Subject Design/Control_Engineering/Freertos.md",
