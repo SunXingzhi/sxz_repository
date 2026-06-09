@@ -12,4 +12,4 @@ float fastInvSqrt(const float x) {
 }
 ```
 
-### 浮点数的其他存储方式
+## 快速求绝对值方法
