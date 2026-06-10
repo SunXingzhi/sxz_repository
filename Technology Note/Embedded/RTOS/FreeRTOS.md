@@ -24,7 +24,44 @@ freertos自带的相对延时函数是:
 ### 消息队列(Message Queue)
 Reference:[(39 封私信 / 80 条消息) FreeRTOS源码探析之——消息队列 - 知乎](https://zhuanlan.zhihu.com/p/341506772)
 消息队列被创建后实际上会开辟一块大小为(消息队列控制块 头+队列长度+每个数据结构的字节大小或者叫做消息空间大小)的内存, 后续管理队列就通过消息队列控制块进行管理.
+
+队列的类型主要有:
+基本队列`queueQUEUE_TYPE_BASE`(即最常用的队列), 队列集合(`QUEUE_TYPE_SET`),以及互斥量, 二值信号量, 计数信号量等等.
 #### Source Code
+#### 消息队列控制头
+```C
+typedef struct QueueDefinition 
+{
+
+        int8_t * pcHead;                   
+        int8_t * pcWriteTo;             
+        union{
+                QueuePointers_t xQueue;  
+                SemaphoreData_t xSemaphore;
+        }
+        List_t xTasksWaitingToSend;                     
+        List_t xTasksWaitingToReceive;            
+        volatile UBaseType_t uxMessagesWaiting; 
+        UBaseType_t uxLength;                              
+        UBaseType_t uxItemSize;                          
+        volatile int8_t cRxLock;                               
+
+        volatile int8_t cTxLock;                                
+
+        #if ( ( configSUPPORT_STATIC_ALLOCATION == 1 ) && ( configSUPPORT_DYNAMIC_ALLOCATION == 1 ) )
+                uint8_t ucStaticallyAllocated; 
+        #endif
+        #if ( configUSE_QUEUE_SETS == 1 )
+                struct QueueDefinition * pxQueueSetContainer;
+        #endif
+        #if ( configUSE_TRACE_FACILITY == 1 )
+                UBaseType_t uxQueueNumber;
+                uint8_t ucQueueType;
+        #endif
+} xQUEUE;
+```
+
+#### 创建消息队列
 ```C
 QueueHandle_t xQueueGenericCreate( const UBaseType_t uxQueueLength,
 								   const UBaseType_t uxItemSize,
@@ -82,10 +119,15 @@ QueueHandle_t xQueueGenericCreate( const UBaseType_t uxQueueLength,
 }
 ```
 消息队列的管理可分为读队列和写队列. 无论读还是写, 都可以分为
+
 ### 信号量(Semaphore)
 信号量一般用于实现同步, 即中断和任务之间or任务和任务之间的资源/状态同步等.
+![[Pasted image 20260601152215.png]]
+
 #### 任务优先级反转
-什么是任务优先级反转? 
+什么是任务优先级反转? 下面举一个具体的例子.
+![[Pasted image 20260601150557.png]]
+有三个带有不同优先级的任务, 其中H, L都需要获取同一个信号量, 那么此时假设系统调度器调度到L运行, L获取到了信号量, 开始执行任务, 此时调度器调度H, H尝试获取这同一个信号量, 但是由于L已经持有的信号量, 因此他只能被暂时阻塞, 而在调度器切换到优先级比L更高的M时, 并且M不需要这个信号量, 此时如果L还没有释放信号量, 就会发生一种现象, 高优先级的任务阻塞等待信号量, 但是由于M在占用CPU, 导致L任务无法继续工作, 也就是释放信号量的时机被延误了, 导致H一直无法接收到信号量,看起来就是H被M/L阻塞了, 就叫做任务优先级反转 
 ##### 解决方案
 #### Q1: 全局变量和信号量的本质区别?
 裸机开发经常会用到全局变量来实现每个任务间的数据交流通信, 同步等, 但是即使使用`volatile`也会导致数据会发生更改的情况导致判断不成立.
