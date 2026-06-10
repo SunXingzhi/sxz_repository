@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "93b77bbc15681e55",
+        "id": "7b6dff000f7598d3",
         "type": "tabs",
         "children": [
           {
-            "id": "3ea231d1e220f0c0",
+            "id": "04ebd622e42c331b",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "Idea/Electronic_DIY/倒数第二次汇报.md",
-                "bFile": "Idea/Electronic_DIY/倒数第二次汇报.md",
-                "aRef": "HEAD",
-                "bRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: 倒数第二次汇报  (Index)"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -195,7 +190,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3ea231d1e220f0c0",
+  "active": "04ebd622e42c331b",
   "lastOpenFiles": [
     "Idea/Electronic_DIY/倒数第二次汇报.md",
     "Pasted image 20260610132946.png",
