@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technology Note/Embedded/RTOS/FreeRTOS.md",
+                "file": "Idea/Electronic_DIY/电子DIY桌面调研汇报.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "FreeRTOS"
+              "title": "电子DIY桌面调研汇报"
             }
           }
         ]
@@ -170,6 +170,8 @@
   },
   "active": "71b0e70116d46c2f",
   "lastOpenFiles": [
+    "Idea/Electronic_DIY/技术方案设计.md",
+    "Technology Note/Embedded/RTOS/FreeRTOS.md",
     "Diary/2026-05-30.md",
     "Diary/2026-05-28.md",
     "/Technology Note/Embedded/RTOS/FreeRTOS.md",
@@ -200,12 +202,10 @@
     "/Subject Design/Intelligent_Sensor",
     "/Subject Design/Control_Engineering",
     "Technology Note/开发体验提升/Obsidian Note Synchronize To FeiShu.md",
-    "Technology Note/Embedded/RTOS/FreeRTOS.md",
     "Technology Note/Git/常用命令.md",
     "Technology Note/Git/使用问题.md",
     "Technology Note/Embedded/STM32/Non-Blocking Design.md",
     "Subject Design/Intelligent_Sensor/未命名.md",
-    "Subject Design/Control_Engineering/电机驱动.md",
     "Pasted image 20260521000006.png",
     "/Pasted image 20260521000006.png"
   ]
