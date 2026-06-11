@@ -163,10 +163,9 @@ while(1){
 # Inter Task communication
 
 # System Usage
-使用FreeRTOS的一般步骤是:
-1) 明确任务需求与通信. 
-2) 创建对应任务函数.
-3) 开辟栈空间
+## 任务创建与优先级划分
+### 控制类系统
+
 
 # 基于CubeMX CMSISv2 的 FreeRTOS配置
 如果在CubeMX使用ST官方的CMSISv2接口, 就是相当于对FreeRTOS做了一个二次封装, 目的就是为了做一个RTOS的兼容层, 无缝移植项目.
