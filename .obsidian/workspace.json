@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technology Note/Embedded/STM32/HAL库学习.md",
+                "file": "Diary/2026-06-10.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HAL库学习"
+              "title": "2026-06-10"
             }
           }
         ]
@@ -70,13 +70,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technology Note/Embedded/STM32/HAL库学习.md",
+                "file": "Diary/2026-06-10.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "HAL库学习 的大纲"
+              "title": "2026-06-10 的大纲"
             }
           },
           {
@@ -196,8 +196,8 @@
   },
   "active": "04ebd622e42c331b",
   "lastOpenFiles": [
-    "Technology Note/Embedded/STM32/Non-Blocking Design.md",
     "Technology Note/Embedded/STM32/HAL库学习.md",
+    "Technology Note/Embedded/STM32/Non-Blocking Design.md",
     "Diary/2026-06-10.md",
     "Subject Design/Control_Engineering/Freertos.md",
     "Subject Design/Control_Engineering/电机驱动设计.md",
