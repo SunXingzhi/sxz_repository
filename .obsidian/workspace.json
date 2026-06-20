@@ -20,8 +20,38 @@
               "icon": "lucide-file",
               "title": "项目结构与vue构建步骤"
             }
+          },
+          {
+            "id": "0a02a1f254fd173e",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "Subject Design/Control_Engineering/STM32 HAL tim定时器使用.md",
+                "bFile": "Subject Design/Control_Engineering/STM32 HAL tim定时器使用.md",
+                "aRef": "HEAD",
+                "bRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: STM32 HAL tim定时器使用  (Index)"
+            }
+          },
+          {
+            "id": "464843fa68a57d8e",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "conflict-files-obsidian-git.md",
+                "bFile": "conflict-files-obsidian-git.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: conflict-files-obsidian-git  (Working Tree)"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -194,10 +224,31 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "743370c4abce8cb6",
+  "active": "464843fa68a57d8e",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Pasted image 20260521000006.png",
+    "Subject Design/Control_Engineering/STM32 HAL tim定时器使用.md",
     "Subject Design/Control_Engineering/待办清单.md",
     "Technology Note/VUE3/项目结构与vue构建步骤.md",
+    "未命名.md",
+    "Technology Note/Linux/Make.md",
+    "Technology Note/Embedded/STM32/HAL库学习.md",
+    "Technology Note/Embedded/STM32/Flash编程.md",
+    "Subject Design/Control_Engineering/步进电机闭环(PID)状态机.canvas",
+    "Subject Design/Control_Engineering/MCU算法优化.md",
+    "Pasted image 20260610132946.png",
+    "Pasted image 20260607225548.png",
+    "Pasted image 20260601152215.png",
+    "Pasted image 20260601150557.png",
+    "Idea/Electronic_DIY/倒数第二次汇报.md",
+    "Diary/2026-06-14.md",
+    "Diary/2026-06-10.md",
+    "Diary/2026-06-07.md",
+    "Diary/2026-06-05.md",
+    "Diary/2026-06-04.md",
+    "Diary/2026-06-02.md",
+    "Diary/2026-06-01.md",
     "Technology Note/VUE3",
     "Technology Note/Linux/VMware-Linux.md",
     "Diary/2026-05-31.md",
@@ -207,29 +258,12 @@
     "Diary/2026-05-26.md",
     "Technology Note/Embedded/Preface.md",
     "Subject Design/Control_Engineering/电机驱动设计.md",
-    "Subject Design/Control_Engineering/算法优化.md",
     "未命名.canvas",
-    "Subject Design/Intelligent_Sensor/gazebo Nav2 SLAM建图与机器人导航.md",
-    "Subject Design/Physics_innovation/方案指定.md",
-    "Subject Design/Writting/电子DIY BP.md",
     "Subject Design/未命名",
     "Subject Design/Physics_innovation",
-    "Subject Design/Control_Engineering/Freertos.md",
-    "Idea/Electronic_DIY/电子DIY桌面调研汇报.md",
-    "Idea/Electronic_DIY/技术方案设计.md",
-    "Subject Design/Intelligent_Agriculture_Preface/番茄长势检测系统设计.md",
-    "Technology Note/Git/使用问题.md",
-    "Technology Note/Git/常用命令.md",
     "Technology Note/Git",
-    "Diary/2026-05-24.md",
-    "Subject Design/Control_Engineering/STM32 HAL tim定时器使用.md",
-    "Subject Design/Intelligent_Agriculture_Preface/番茄长势判断逻辑与图像处理.md",
-    "Technology Note/Embedded/STM32/Non-Blocking Design.md",
     "Technology Note/Embedded/STM32",
-    "Pasted image 20260521000006.png",
     "Subject Design/Control_Engineering",
-    "Diary/2026-05-17.md",
-    "Technology Note/CorC艹/CMake.md",
     "Technology Note/CorC艹/C-Part/C-Standard-Library",
     "Technology Note/CorC艹/C-Part",
     "Technology Note/CorC艹/C++Part",
@@ -239,10 +273,6 @@
     "Pasted image 20260513131731.png",
     "Pasted image 20260513125825.png",
     "pasternosted.gif",
-    "pasternosted 1.gif",
-    "水平转盘.png",
-    "pasternosterilllustrated.gif",
-    "Pasted image 20260513124448.png",
     "未命名 2.canvas",
     "未命名 1.canvas"
   ]

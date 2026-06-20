@@ -10,12 +10,58 @@ FreeRTOS中的内核对象主要有消息队列(Message Queue), TCB(Task Control
 
 #### 任务切换
 ##### Q1: 中进行上下文切换时是如何保留上下文状态的？
-##### Q2: 如何记录一个任务
+实际上内核把每个状态下的任务都存储为链表/列表, 即有一下几个列表: 阻塞列表, 挂起列表, 延时列表 就绪列表等等. 当任务从XX状态->另一个状态, 那么就是在操作这几张表.
+
+##### Q2: 如何记录一个任务此时的上下文信息?
+##### 延时函数
+延时函数分为相对延时(从调用延时函数开始计算指定延时时间), 以及绝对延时(即定时器)
+freertos自带的相对延时函数是:
+###### `vTaskDelay(const TickType_t xTicksToDelay)`
+
+###### `vTaskDelayUntil( TickType_t * const pxPreviousWakeTime,const TickType_t xTimeIncrement );`
+绝对延时
 
 ### 消息队列(Message Queue)
 Reference:[(39 封私信 / 80 条消息) FreeRTOS源码探析之——消息队列 - 知乎](https://zhuanlan.zhihu.com/p/341506772)
+消息队列被创建后实际上会开辟一块大小为(消息队列控制块 头+队列长度+每个数据结构的字节大小或者叫做消息空间大小)的内存, 后续管理队列就通过消息队列控制块进行管理.
 
+队列的类型主要有:
+基本队列`queueQUEUE_TYPE_BASE`(即最常用的队列), 队列集合(`QUEUE_TYPE_SET`),以及互斥量, 二值信号量, 计数信号量等等.
 #### Source Code
+#### 消息队列控制头
+```C
+typedef struct QueueDefinition 
+{
+
+        int8_t * pcHead;                   
+        int8_t * pcWriteTo;             
+        union{
+                QueuePointers_t xQueue;  
+                SemaphoreData_t xSemaphore;
+        }
+        List_t xTasksWaitingToSend;                     
+        List_t xTasksWaitingToReceive;            
+        volatile UBaseType_t uxMessagesWaiting; 
+        UBaseType_t uxLength;                              
+        UBaseType_t uxItemSize;                          
+        volatile int8_t cRxLock;                               
+
+        volatile int8_t cTxLock;                                
+
+        #if ( ( configSUPPORT_STATIC_ALLOCATION == 1 ) && ( configSUPPORT_DYNAMIC_ALLOCATION == 1 ) )
+                uint8_t ucStaticallyAllocated; 
+        #endif
+        #if ( configUSE_QUEUE_SETS == 1 )
+                struct QueueDefinition * pxQueueSetContainer;
+        #endif
+        #if ( configUSE_TRACE_FACILITY == 1 )
+                UBaseType_t uxQueueNumber;
+                uint8_t ucQueueType;
+        #endif
+} xQUEUE;
+```
+
+#### 创建消息队列
 ```C
 QueueHandle_t xQueueGenericCreate( const UBaseType_t uxQueueLength,
 								   const UBaseType_t uxItemSize,
@@ -72,10 +118,16 @@ QueueHandle_t xQueueGenericCreate( const UBaseType_t uxQueueLength,
 	return pxNewQueue;
 }
 ```
+消息队列的管理可分为读队列和写队列. 无论读还是写, 都可以分为
 
 ### 信号量(Semaphore)
 信号量一般用于实现同步, 即中断和任务之间or任务和任务之间的资源/状态同步等.
+![[Pasted image 20260601152215.png]]
+
 #### 任务优先级反转
+什么是任务优先级反转? 下面举一个具体的例子.
+![[Pasted image 20260601150557.png]]
+有三个带有不同优先级的任务, 其中H, L都需要获取同一个信号量, 那么此时假设系统调度器调度到L运行, L获取到了信号量, 开始执行任务, 此时调度器调度H, H尝试获取这同一个信号量, 但是由于L已经持有的信号量, 因此他只能被暂时阻塞, 而在调度器切换到优先级比L更高的M时, 并且M不需要这个信号量, 此时如果L还没有释放信号量, 就会发生一种现象, 高优先级的任务阻塞等待信号量, 但是由于M在占用CPU, 导致L任务无法继续工作, 也就是释放信号量的时机被延误了, 导致H一直无法接收到信号量,看起来就是H被M/L阻塞了, 就叫做任务优先级反转 
 ##### 解决方案
 #### Q1: 全局变量和信号量的本质区别?
 裸机开发经常会用到全局变量来实现每个任务间的数据交流通信, 同步等, 但是即使使用`volatile`也会导致数据会发生更改的情况导致判断不成立.
@@ -111,10 +163,9 @@ while(1){
 # Inter Task communication
 
 # System Usage
-使用FreeRTOS的一般步骤是:
-1) 明确任务需求与通信. 
-2) 创建对应任务函数.
-3) 开辟栈空间
+## 任务创建与优先级划分
+### 控制类系统
+
 
 # 基于CubeMX CMSISv2 的 FreeRTOS配置
 如果在CubeMX使用ST官方的CMSISv2接口, 就是相当于对FreeRTOS做了一个二次封装, 目的就是为了做一个RTOS的兼容层, 无缝移植项目.
@@ -144,5 +195,7 @@ Good Article:[CubeMX使用FreeRTOS编程指南_cubemx freertos-CSDN博客](https
 | osThreadTerminate     | 停止指定任务           |     |
 | osThreadGetCount      | 获取激活的任务数量        |     |
 | osThreadEnumerate     | 列举激活的任务          |     |
+|                       |                  |     |
+
 ### Semaphore
 ### Message Queue

@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"458de8ea24e694a4","type":"text","text":"进入定时器中断","x":20,"y":40,"width":250,"height":60},
+		{"id":"d850245b524fc34e","type":"text","text":"中断读取当前角速度以及目标转速, 更新PID参数","x":20,"y":120,"width":250,"height":60},
+		{"id":"755470c37cd960c2","type":"text","text":"运行PID_update()函数, 获取目标频率","x":20,"y":200,"width":250,"height":60},
+		{"id":"6c15726712151803","type":"text","text":"进入临界区, 执行电机运动命令, 设置电机运动参数, 设置PID目标值","x":-241,"y":-60,"width":250,"height":100},
+		{"id":"e02f9c9063bfcea0","type":"text","text":"如果接收到运动命令(倒立摆控制器/角度外环输出状态为1),读取要设置的电机速度 ","x":-246,"y":-220,"width":261,"height":112},
+		{"id":"32b025d03c0af832","type":"text","text":"频率转成具体ARR寄存器值, 设置电机速度.","x":20,"y":380,"width":250,"height":60},
+		{"id":"9cb9278b32c45569","type":"text","text":"如果设置失败, 尝试自动归零重新运行, 3次失败则进入错误处理层","x":300,"y":280,"width":220,"height":100}
+	],
+	"edges":[
+		{"id":"afc8193d28cbe7c6","fromNode":"755470c37cd960c2","fromSide":"right","toNode":"9cb9278b32c45569","toSide":"top"},
+		{"id":"9819bb5e15b20f42","fromNode":"755470c37cd960c2","fromSide":"bottom","toNode":"32b025d03c0af832","toSide":"top"},
+		{"id":"070771e8c68e63bd","fromNode":"d850245b524fc34e","fromSide":"bottom","toNode":"755470c37cd960c2","toSide":"top"},
+		{"id":"b1d13b2d0dd4441f","fromNode":"458de8ea24e694a4","fromSide":"bottom","toNode":"d850245b524fc34e","toSide":"top"},
+		{"id":"c30b1cdf0beea3d8","fromNode":"6c15726712151803","fromSide":"right","toNode":"458de8ea24e694a4","toSide":"top"},
+		{"id":"c9800fd95e34810f","fromNode":"e02f9c9063bfcea0","fromSide":"bottom","toNode":"6c15726712151803","toSide":"top"}
+	]
+}
