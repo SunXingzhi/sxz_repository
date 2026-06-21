@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technology Note/BasicWeb/JavaScript.md",
+                "file": "Technology Note/VUE3/基本语法使用.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JavaScript"
+              "title": "基本语法使用"
             }
           }
         ]
@@ -70,13 +70,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technology Note/Embedded/RTOS/FreeRTOS.md",
+                "file": "Technology Note/VUE3/基本语法使用.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "FreeRTOS 的大纲"
+              "title": "基本语法使用 的大纲"
             }
           },
           {
@@ -89,7 +89,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -194,12 +195,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b9b11a4473e46478",
+  "active": "7c4752ed81148a6c",
   "lastOpenFiles": [
-    "Technology Note/VUE3/基本语法使用.md",
-    "Technology Note/BasicWeb/JavaScript.md",
-    "Technology Note/BasicWeb",
     "Technology Note/VUE3/项目结构与vue构建步骤.md",
+    "Technology Note/BasicWeb/JavaScript.md",
+    "Technology Note/VUE3/基本语法使用.md",
+    "Technology Note/BasicWeb",
     "Diary/2026-06-20.md",
     "Diary/2026-06-14.md",
     "Subject Design/Control_Engineering/步进电机闭环(PID)状态机.canvas",
