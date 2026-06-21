@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2026-06-20.md",
+                "file": "Technology Note/VUE3/基本语法使用.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-06-20"
+              "title": "基本语法使用"
             }
           }
         ]
@@ -196,14 +196,15 @@
   },
   "active": "b9b11a4473e46478",
   "lastOpenFiles": [
-    "Diary/2026-06-14.md",
+    "Technology Note/VUE3/项目结构与vue构建步骤.md",
+    "Technology Note/VUE3/基本语法使用.md",
     "Diary/2026-06-20.md",
+    "Diary/2026-06-14.md",
     "Subject Design/Control_Engineering/步进电机闭环(PID)状态机.canvas",
     "conflict-files-obsidian-git.md",
     "Pasted image 20260521000006.png",
     "Subject Design/Control_Engineering/STM32 HAL tim定时器使用.md",
     "Subject Design/Control_Engineering/待办清单.md",
-    "Technology Note/VUE3/项目结构与vue构建步骤.md",
     "未命名.md",
     "Technology Note/Linux/Make.md",
     "Technology Note/Embedded/STM32/HAL库学习.md",
@@ -228,7 +229,6 @@
     "Diary/2026-05-28.md",
     "Diary/2026-05-26.md",
     "Technology Note/Embedded/Preface.md",
-    "Subject Design/Control_Engineering/电机驱动设计.md",
     "未命名.canvas",
     "Subject Design/未命名",
     "Subject Design/Physics_innovation",
