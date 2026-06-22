@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technology Note/AI/Model API keys.md",
+                "file": "Technology Note/VUE3/基本语法使用.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Model API keys"
+              "title": "基本语法使用"
             }
           }
         ]
@@ -70,13 +70,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technology Note/AI/Model API keys.md",
+                "file": "Technology Note/VUE3/基本语法使用.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Model API keys 的大纲"
+              "title": "基本语法使用 的大纲"
             }
           },
           {
@@ -196,8 +196,8 @@
   },
   "active": "b9b11a4473e46478",
   "lastOpenFiles": [
-    "Technology Note/VUE3/基本语法使用.md",
     "Technology Note/AI/Model API keys.md",
+    "Technology Note/VUE3/基本语法使用.md",
     "Technology Note/AI",
     "Technology Note/VUE3/项目结构与vue构建步骤.md",
     "Technology Note/BasicWeb/JavaScript.md",
