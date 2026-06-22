@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technology Note/VUE3/基本语法使用.md",
+                "file": "Diary/2026-06-22.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "基本语法使用"
+              "title": "2026-06-22"
             }
           }
         ]
@@ -70,13 +70,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technology Note/VUE3/基本语法使用.md",
+                "file": "Diary/2026-06-22.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "基本语法使用 的大纲"
+              "title": "2026-06-22 的大纲"
             }
           },
           {
@@ -196,8 +196,9 @@
   },
   "active": "b9b11a4473e46478",
   "lastOpenFiles": [
-    "Technology Note/AI/Model API keys.md",
     "Technology Note/VUE3/基本语法使用.md",
+    "Diary/2026-06-22.md",
+    "Technology Note/AI/Model API keys.md",
     "Technology Note/AI",
     "Technology Note/VUE3/项目结构与vue构建步骤.md",
     "Technology Note/BasicWeb/JavaScript.md",
@@ -230,7 +231,6 @@
     "Diary/2026-05-31.md",
     "Diary/2026-05-30.md",
     "Technology Note/Embedded/RTOS/FreeRTOS.md",
-    "Diary/2026-05-28.md",
     "未命名.canvas",
     "Subject Design/未命名",
     "Subject Design/Physics_innovation",
