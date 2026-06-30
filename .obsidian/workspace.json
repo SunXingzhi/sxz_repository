@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2026-06-22.md",
+                "file": "Profiles/First profile.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-06-22"
+              "title": "First profile"
             }
           }
         ]
@@ -196,8 +196,10 @@
   },
   "active": "b9b11a4473e46478",
   "lastOpenFiles": [
-    "Technology Note/VUE3/基本语法使用.md",
     "Diary/2026-06-22.md",
+    "Profiles/First profile.md",
+    "Profiles",
+    "Technology Note/VUE3/基本语法使用.md",
     "Technology Note/AI/Model API keys.md",
     "Technology Note/AI",
     "Technology Note/VUE3/项目结构与vue构建步骤.md",
@@ -230,7 +232,6 @@
     "Technology Note/Linux/VMware-Linux.md",
     "Diary/2026-05-31.md",
     "Diary/2026-05-30.md",
-    "Technology Note/Embedded/RTOS/FreeRTOS.md",
     "未命名.canvas",
     "Subject Design/未命名",
     "Subject Design/Physics_innovation",
@@ -238,7 +239,6 @@
     "Technology Note/Embedded/STM32",
     "Subject Design/Control_Engineering",
     "Technology Note/CorC艹/C-Part/C-Standard-Library",
-    "Technology Note/CorC艹/C-Part",
     "Pasted image 20260513134856.png",
     "Pasted image 20260513134831.png",
     "Pasted image 20260513131731.png",
