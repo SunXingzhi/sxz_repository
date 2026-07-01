@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Profiles/First profile.md",
+                "file": "Diary/2026-07-01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "First profile"
+              "title": "2026-07-01"
             }
           }
         ]
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "bd832ea3cecebe4e",
@@ -198,8 +197,9 @@
   },
   "active": "b9b11a4473e46478",
   "lastOpenFiles": [
-    "Diary/2026-06-22.md",
     "Profiles/First profile.md",
+    "Diary/2026-07-01.md",
+    "Diary/2026-06-22.md",
     "Profiles",
     "Technology Note/VUE3/基本语法使用.md",
     "Technology Note/AI/Model API keys.md",
@@ -233,7 +233,6 @@
     "Technology Note/VUE3",
     "Technology Note/Linux/VMware-Linux.md",
     "Diary/2026-05-31.md",
-    "Diary/2026-05-30.md",
     "未命名.canvas",
     "Subject Design/未命名",
     "Subject Design/Physics_innovation",
