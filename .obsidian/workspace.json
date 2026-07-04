@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "5d1651f1ef6ae669",
+        "id": "e08377a17c607b77",
         "type": "tabs",
         "children": [
           {
-            "id": "b9b11a4473e46478",
+            "id": "92babaa0ae4824b1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Self/Open Source Project.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Open Source Project"
+              "title": "新标签页"
             }
           }
         ]
@@ -195,10 +191,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b9b11a4473e46478",
+  "active": "92babaa0ae4824b1",
   "lastOpenFiles": [
-    "未命名.md",
+    "Subject Design/Writting/电子DIY BP.md",
     "Self/Open Source Project.md",
+    "未命名.md",
     "Self",
     "Assets/pasternosterilllustrated.gif",
     "Assets/Pasted image 20260513131731.png",
@@ -235,7 +232,6 @@
     "Diary/2026-06-05.md",
     "Diary/2026-06-04.md",
     "Diary/2026-06-02.md",
-    "Diary/2026-06-01.md",
     "Technology Note/VUE3",
     "未命名.canvas",
     "Subject Design/未命名",
