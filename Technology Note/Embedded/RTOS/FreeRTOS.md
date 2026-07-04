@@ -199,3 +199,9 @@ Good Article:[CubeMX使用FreeRTOS编程指南_cubemx freertos-CSDN博客](https
 
 ### Semaphore
 ### Message Queue
+
+# FreeRTOS 移植
+## STM32 裸机工程
+先从github下载FreeRTOS Kernel，下载后的内容有`include`, `examples`,`portable`,以及需要的一些核心文件`task.c`, `queue.c`,`list.c`,etc. 
+
+> 这里注意的是官方仓库有两个github版本，一个是Kernel，一个是FreeRTOS，官方说明kernel是FreeRTOS repo的子模块，因为FreeRTOS中还包括一些常用的嵌入式实现（`FreeRTOS Plus`），以及为一些芯片准备好的demo程序。我们这里选择直接配置Kernel到我们的工程中。
