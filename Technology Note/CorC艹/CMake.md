@@ -85,4 +85,4 @@ target_sources(main PUBLIC ${sources})
 
 ```
 主 CMakeLists 只负责"组装"，每个子模块只负责"自己的东西"，互不干扰。这就是分层的意义。
->Note:`add_subdirectory()`,该目录下必须有CMakelist才生效。
+>Note:`add_subdirectory()`,该目录下必须有`CMakelists.txt`才生效。
