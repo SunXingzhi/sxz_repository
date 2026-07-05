@@ -89,11 +89,12 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 341.49999618530273
+    "width": 200
   },
   "right": {
     "id": "bd832ea3cecebe4e",
@@ -195,7 +196,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "92babaa0ae4824b1",
+  "active": "7c4752ed81148a6c",
   "lastOpenFiles": [
     "Technology Note/Embedded/RTOS/FreeRTOS.md",
     "Subject Design/Writting/电子DIY BP.md",
