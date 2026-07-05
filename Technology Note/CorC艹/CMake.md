@@ -61,7 +61,49 @@ target_sources(main PUBLIC ${sources})
 ```
 
 ## 常用func
-### 
+### 系统基本函数
+
+| API                      | 功能                                         | Example                                                                                                                                                                                             |
+| ------------------------ | ------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| cmake_minimum_required() | 规定CMake最低要求版本                              | cmake_minimum_required(VERSION 3.22)                                                                                                                                                                |
+| message()                | CMake打印输出函数，后面直接加字符串，支持引用字符串变量。支持传入变量类型/模式 | <br>message("普通信息")                    # 普通输出<br>message(STATUS "状态信息")             # 带 -- 前缀，一般信息<br>message(WARNING "警告")                # 黄色警告<br>message(FATAL_ERROR "致命错误")        # 红色错误，停止配置 |
+|                          |                                            |                                                                                                                                                                                                     |
+|                          |                                            |                                                                                                                                                                                                     |
+|                          |                                            |                                                                                                                                                                                                     |
+
+### 路径管理相关函数
+
+| API                | 功能                                                                                                                                                                                                                                                                         | Example                             |
+| ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
+| file(GLOB)         | 选择将目录路径字符串列表作为一个变量的值。<br>同时支持通配符等表达式。<br>需要注意的是他并不会在每次CMakelist更新后自动检测文件的更改。因此每次都要清楚缓存并重新生成。并且默认也不会检测文件列表中的每个文件是否改变了，如果想要检测，需要在文件列表路径之后添加 CONFIGURE_DEPENDS 参数<br>> NOTE: 需要注意的是，官方不推荐用 `file(GLOB)` 收集源文件，因为：<br>- 无法精确知道哪些文件被添加/删除了<br>- 可能导致意外的重新编译，**手动列出源文件**是官方推荐的做法 |                                     |
+| add_subdirectory() | 设置子CMakelists.txt搜索路径                                                                                                                                                                                                                                                      | add_subdirectory(cmake/stm32cubemx) |
+|                    |                                                                                                                                                                                                                                                                            |                                     |
+
+### 目标相关函数
+
+| API                                   | 功能                                                                                                | Example                                                                                                                                                                                             |
+| ------------------------------------- | ------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| add_excute(${target_name} \<source>)  | 添加可执行程序目标                                                                                         | )                                                                                                                                                                                                   |
+| add_library(${target_name} \<source>) | CMake打印输出函数，后面直接加字符串，支持引用字符串变量。支持传入变量类型/模式                                                        | <br>message("普通信息")                    # 普通输出<br>message(STATUS "状态信息")             # 带 -- 前缀，一般信息<br>message(WARNING "警告")                # 黄色警告<br>message(FATAL_ERROR "致命错误")        # 红色错误，停止配置 |
+| target_source()                       | 为目标增加源文件                                                                                          | target_sources(my_app PRIVATE<br>    Core/Src/main.c<br>    Core/Src/gpio.c<br>    Core/Src/stm32f1xx_it.c<br>)                                                                                     |
+| target_include_directories()          | 设置头文件搜索路径                                                                                         | target_include_directories(my_app PRIVATE<br>    Core/Inc<br>    Drivers/CMSIS/Include<br>)                                                                                                         |
+| target_link_directories()             | 设置库文件搜索路径                                                                                         |                                                                                                                                                                                                     |
+| target_compile_definitions()          | 添加编译器定义宏。如果是嵌入式（STM32)，可以是使用的库宏（USE_HAL_DRIVER or USE_STANDARD_FIWAXX);<br>以及芯片名称（STM32F103XB)等等。 | target_compile_definitions(my_app PRIVATE<br>    USE_HAL_DRIVER<br>    STM32F103xB<br>    DEBUG=1<br>)                                                                                              |
+|                                       |                                                                                                   |                                                                                                                                                                                                     |
+## 常用系统内置变量
+定义CMake/第三方库的CMakelist要求的变量，可以方便的配置项目。CMake中常见的内置变量有，C语言标准，项目名称， 项目目录等等。具体常用变量如下：
+
+
+| Variable                      | Func                                                                  | Example                                                |
+| ----------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------ |
+| CMAKE_C_STANDARD              | 标明C标准                                                                 | set(CMAKE_C_STANDARD 11)                               |
+| CMAKE_C_STANDARD_REQUIRED     | 设置变量表示是否要检查C标准版本                                                      | set(CMAKE_C_STANDARD_REQUIRED ON)                      |
+| CMAKE_C_EXTENSIONS            | 设置是否要开启GCC 拓展的变量。嵌入式中常用的GCC拓展有typeof(), 零长度数组等。                       | set(CMAKE_C_EXTENSIONS ON)                             |
+| CMAKE_BUILD_TYPE              | CMake构建类型，有"Debug","Release"等                                         | set(CMAKE_BUILD_TYPE "Debug")                          |
+| CMAKE_PROJECT_NAME            | 约定俗称的项目变量。设置变量后可以project()函数传参，明明项目                                   | set(CMAKE_PROJECT_NAME freertos_move_stm32_cubemx_hal) |
+| CMAKE_EXPORT_COMPILE_COMMANDS | 是否导出`compile_commands.json`文件。该文件常用于IDE语法跳转，高亮，补全等功能，如vscode的CLangd插件 | set(CMAKE_EXPORT_COMPILE_COMMANDS TRUE)                |
+|                               |                                                                       |                                                        |
+
 ## 多层项目组织
 多层项目我们在进行项目管理时，如果把所有文件，依赖关系，库，目标堆在一个文件，会出现：多人团队难以维护，逻辑复杂等问题。为此，我们可以拆分项目成一个个模块/插件，每个插件可以单独赋予一个额外的CMakelist，实现更加分明的逻辑结构。
 举个例子，在STM32 Cubemx 配置 CMake 工程生成的代码中，他的CMakelist文件结构如下：
@@ -86,3 +128,5 @@ target_sources(main PUBLIC ${sources})
 ```
 主 CMakeLists 只负责"组装"，每个子模块只负责"自己的东西"，互不干扰。这就是分层的意义。
 >Note:`add_subdirectory()`,该目录下必须有`CMakelists.txt`才生效。
+
+主目录的CMakelists.txt中一定有的是
