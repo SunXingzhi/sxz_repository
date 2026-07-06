@@ -8,3 +8,4 @@ cd <target_dir>
 idf.py create-project <project_name>
 idf.py set-target <esp32_board_name:esp32s3>
 ```
+同时需要在CLion当前工程的配置中添加环境变量，如`espport`,`esptarget`,`baudRate`等

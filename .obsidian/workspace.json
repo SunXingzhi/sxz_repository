@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technology Note/Embedded/ESP32_IDF/ESP_IDF+CLION新建工程.md",
+                "file": "Technology Note/CorC艹/C-Part/C概念解析.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ESP_IDF+CLION新建工程"
+              "title": "C概念解析"
             }
           }
         ]
@@ -197,10 +197,12 @@
   },
   "active": "92babaa0ae4824b1",
   "lastOpenFiles": [
-    "Technology Note/CorC艹/CMake.md",
-    "Technology Note/Embedded/ESP32_IDF/ESP_IDF+CLION新建工程.md",
-    "Technology Note/Embedded/ESP32_IDF",
+    "Technology Note/CorC艹/C-Part/Environment Configuration.md",
+    "Technology Note/CorC艹/C-Part/C概念解析.md",
     "Technology Note/Embedded/RTOS/FreeRTOS.md",
+    "Technology Note/Embedded/ESP32_IDF/ESP_IDF+CLION新建工程.md",
+    "Technology Note/CorC艹/CMake.md",
+    "Technology Note/Embedded/ESP32_IDF",
     "Subject Design/Writting/电子DIY BP.md",
     "Self/Open Source Project.md",
     "未命名.md",
@@ -235,8 +237,6 @@
     "Assets/Pasted image 20260601152215.png",
     "Assets/Pasted image 20260601150557.png",
     "Idea/Electronic_DIY/倒数第二次汇报.md",
-    "Diary/2026-06-10.md",
-    "Diary/2026-06-07.md",
     "Technology Note/VUE3",
     "未命名.canvas",
     "Subject Design/未命名",
