@@ -3,7 +3,7 @@ RTOS(Real Time Operation Sytem)在嵌入式中有广泛的应用. 相比于普�
 # Kernel
 ## Kernel Implemention
 ### 数据结构实现
-#### 链表
+#### 双向循环链表->
 
 
 ## Kernel Object 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technology Note/CorC艹/C-Part/C概念解析.md",
+                "file": "Technology Note/Embedded/RTOS/FreeRTOS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C概念解析"
+              "title": "FreeRTOS"
             }
           }
         ]
@@ -197,8 +197,8 @@
   },
   "active": "92babaa0ae4824b1",
   "lastOpenFiles": [
-    "Diary/2026-07-06.md",
     "Technology Note/CorC艹/C-Part/C概念解析.md",
+    "Diary/2026-07-06.md",
     "Technology Note/CorC艹/C-Part/Environment Configuration.md",
     "Technology Note/Embedded/RTOS/FreeRTOS.md",
     "Technology Note/Embedded/ESP32_IDF/ESP_IDF+CLION新建工程.md",
