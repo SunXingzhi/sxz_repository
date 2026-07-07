@@ -57,4 +57,5 @@ typedef struct xLIST
 	MiniListItem_t	xListEnd;		// the last node of the list
 } List_t;
 ```
-其中List_t的`xListEnd`就是哨兵节点,在整个环形链表中可看作是(0,0)的参考点.向前一个元素可以看成是**双向非循环链表**的尾节点(tail node),而向后就是 head node. 这么做的好处是
+其中List_t的`xListEnd`就是哨兵节点,在整个环形链表中可看作是(0,0)的参考点.向前一个元素可以看成是**双向非循环链表**的尾节点(`tail node`),而向后就是 `head node`. 这么做的好处是可以按照一个方向到达任意一个节点.
+还有一个需要理解的问题: `pxIndex`是干嘛的? 这里就要区分一下我们说的逻辑队列和物理队列的概念了.物理队列就是说的是通过`xListEnd`可以获取到的队尾/队首. 不过在实际的FreeRTOS应用中,使用的是**逻辑队列**,即通过`pxIndex`来实现. 区分于物理队列满足一个顺序(通过`xItemValue`大/小进行排列), 逻辑队列是按照`pxIndex->next`为逻辑队首,`previous`为逻辑队尾实现的. 我们插入一个新节点(不是升序插入),只需要加入到`pxIndex-previous`,然后更新链表逻辑即可, 因为FreeRTOS中`pxIndex->previous`就是代表的队尾,与`pxList`概念一致.
