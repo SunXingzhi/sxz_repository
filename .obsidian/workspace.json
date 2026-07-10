@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diary/2026-07-09.md",
+                "file": "Technology Note/DesignMode/Wrapper-装饰器.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-07-09"
+              "title": "Wrapper-装饰器"
             }
           }
         ]
@@ -197,8 +197,10 @@
   },
   "active": "92babaa0ae4824b1",
   "lastOpenFiles": [
-    "Technology Note/Embedded/ARM/Arm Instructions.md",
+    "Technology Note/DesignMode/不透明指针(Opaque Pointer).md",
+    "Technology Note/DesignMode/Wrapper-装饰器.md",
     "Diary/2026-07-09.md",
+    "Technology Note/Embedded/ARM/Arm Instructions.md",
     "Technology Note/Language/Operator(运算符).md",
     "Technology Note/Embedded/ARM",
     "Technology Note/Language/Preface.md",
@@ -211,7 +213,6 @@
     "Technology Note/Language/BasicWeb/JavaScript.md",
     "Technology Note/Embedded/RTOS/FreeRTOS.md",
     "Technology Note/Language",
-    "Technology Note/DesignMode/不透明指针(Opaque Pointer).md",
     "Diary/2026-07-08.md",
     "Technology Note/DesignMode",
     "Technology Note/DataStructure/Linked List.md",
@@ -232,7 +233,6 @@
     "Diary/2026-06-22.md",
     "Self/Profiles",
     "Technology Note/VUE3/基本语法使用.md",
-    "Technology Note/AI/Model API keys.md",
     "Technology Note/AI",
     "Technology Note/Language/BasicWeb",
     "Subject Design/Control_Engineering/步进电机闭环(PID)状态机.canvas",
