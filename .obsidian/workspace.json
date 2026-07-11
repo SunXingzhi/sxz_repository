@@ -179,11 +179,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5,
-    "collapsed": true
+    "width": 302.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -191,18 +191,18 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "bases:新建数据库": true,
-      "obshare:分享当前页面": false,
-      "obsidian-git:Open Git source control": false
+      "obshare:分享当前页面": false
     }
   },
   "active": "92babaa0ae4824b1",
   "lastOpenFiles": [
     "Diary/2026-07-08.md",
+    "Technology Note/Embedded/ARM/Arm Instructions.md",
+    "Technology Note/DataStructure/Linked List.md",
+    "Technology Note/DesignMode/不透明指针(Opaque Pointer).md",
+    "Technology Note/DesignMode/Wrapper-装饰器.md",
     "Diary/2026-07-09.md",
     "Diary/2026-07-10.md",
-    "Technology Note/Embedded/ARM/Arm Instructions.md",
-    "Technology Note/DesignMode/Wrapper-装饰器.md",
-    "Technology Note/DesignMode/不透明指针(Opaque Pointer).md",
     "Technology Note/Language/Operator(运算符).md",
     "Technology Note/Embedded/ARM",
     "Technology Note/Language/Preface.md",
@@ -216,7 +216,6 @@
     "Technology Note/Embedded/RTOS/FreeRTOS.md",
     "Technology Note/Language",
     "Technology Note/DesignMode",
-    "Technology Note/DataStructure/Linked List.md",
     "Technology Note/DataStructure",
     "Diary/2026-07-06.md",
     "Technology Note/Embedded/ESP32_IDF/ESP_IDF+CLION新建工程.md",
