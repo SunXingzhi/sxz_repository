@@ -1,6 +1,7 @@
 # Reference
 [FreeRTOS-ARM架构深入理解_freertos架构-CSDN博客](https://blog.csdn.net/k666499436/article/details/126985523)
 本次说明的是ARM Cortex-M3架构， 和A/R架构略有不同， 比如CPU运行模式（A/R架构有七种模式， 而M只分成两种：线程模式 和 处理模式(Handler Mode)。
+# **AAPCS**标准
 
 # CPU运行模式
  在Cortex -M3 架构中，芯片分成了两个大的运行模式，异常状态对应的处理模式（特权级），非异常状态对应的线程模式（用户态， 特权级/非特权级都存在）。芯片上电/复位后默认运行的就是特权模式下的线程模式。
