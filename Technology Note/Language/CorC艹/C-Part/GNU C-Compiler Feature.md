@@ -4,6 +4,6 @@
 ```c
 struct C{
 	char c;
-		int
-}
+    int x;
+};__ALIGN(4)__;
 ```
