@@ -1,0 +1,22 @@
+{
+  "device_id": "c746d1d4-2b95-437d-a231-d22c3c80c388",
+  "device_label": "Windows",
+  "saved_at": 1784444100,
+  "active_index": 1,
+  "tabs": [
+    {
+      "file_path": null,
+      "file_name": "Untitled.md",
+      "cursor_line": null,
+      "cursor_col": null,
+      "rel_path": null
+    },
+    {
+      "file_path": "C:\\Users\\ASUS\\Documents\\obsidian_repository\\sxz_repository\\Diary\\2026-07-10.md",
+      "file_name": "2026-07-10.md",
+      "cursor_line": null,
+      "cursor_col": null,
+      "rel_path": "Diary/2026-07-10.md"
+    }
+  ]
+}
