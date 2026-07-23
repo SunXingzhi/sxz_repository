@@ -37,7 +37,7 @@
 	$(CC) $(CFLAGS) -c $< -o $@
 ```
 
-
+> Note: 需要注意的是这里的%只能在目标/依赖中使用, 在ming'ling'hang'z
 
 
 
