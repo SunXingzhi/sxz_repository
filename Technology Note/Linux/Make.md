@@ -12,9 +12,9 @@
 
 
 
-## Makefile中使用命令行
+## Makefile中使用命令行(`Bash`为例)
 
-
+在目标下方的yu'ju'z
 
 ## Make内置函数
 
