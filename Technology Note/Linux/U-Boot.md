@@ -4,7 +4,7 @@
 
 移植U-Boot需要先理解整个U-Boot的工程结构以及工作流程.
 
-### U-Boot的工程结构
+## U-Boot的工程结构
 
 | 目录               | 作用                                                         |
 | :----------------- | :----------------------------------------------------------- |
@@ -23,13 +23,11 @@
 
 其中移植时的终点在`dts`,`board/xx`,`include/configs/xx.h`, `drivers`等等.
 
----
-
-### U-Boot 启动流程(以I.MX6ULL ALPHA -ALIENTEK EMMC 512MB 为例)
+## U-Boot 启动流程(以I.MX6ULL ALPHA -ALIENTEK EMMC 512MB 为例)
 
 分为芯片初始化和扳机初始化,即`Arch`层和`Board`层
 
-#### 1. 处理器上电与 Boot ROM
+### 1. 处理器上电与 Boot ROM
 
 i.MX6ULL 上电后，首先执行片内 Boot ROM 固化的启动代码。它会根据 BOOT_MODE 引脚选择启动设备（SD 卡、eMMC、NAND 等）。
 对于从 SD 卡启动，ROM 会读取卡上固定偏移（通常 1 KB）的映像，该映像必须是带 **IVT（Image Vector Table）** 和 **DCD（Device Configuration Data）** 的 `u-boot.imx` 格式。详情可以看`./Embedded/IMX6ULL/2.启动方式`一节.
@@ -41,7 +39,7 @@ i.MX6ULL 上电后，首先执行片内 Boot ROM 固化的启动代码。它会�
 
 ------
 
-#### 2. 汇编入口与 C 环境建立（`_start`）
+### 2. 汇编入口与 C 环境建立（`_start`）
 
 入口代码位于 `arch/arm/cpu/armv7/start.S`，依次完成：
 
@@ -53,7 +51,7 @@ i.MX6ULL 上电后，首先执行片内 Boot ROM 固化的启动代码。它会�
 
 ------
 
-#### 3. 早期初始化 `board_init_f`（运行于 DRAM，但无重定位）
+### 3. 早期初始化 `board_init_f`（运行于 DRAM，但无重定位）
 
 该函数位于 `common/board_f.c`，通过一个**初始化序列数组 `init_sequence_f`** 逐步执行：
 
@@ -68,7 +66,7 @@ i.MX6ULL 上电后，首先执行片内 Boot ROM 固化的启动代码。它会�
 
 ------
 
-#### 4. 重定位 `relocate_code`
+### 4. 重定位 `relocate_code`
 
 - 将 U-Boot 自身的 **代码段、只读数据、数据段** 全部复制到 `gd->relocaddr` 指向的 DRAM 顶部区域。
 - 修正 `.rel.dyn` 中的重定位表项，使所有绝对地址引用指向新位置。
@@ -78,7 +76,7 @@ i.MX6ULL 上电后，首先执行片内 Boot ROM 固化的启动代码。它会�
 
 ------
 
-#### 5. 后期初始化 `board_init_r`（运行于重定位后）
+### 5. 后期初始化 `board_init_r`（运行于重定位后）
 
 函数位于 `common/board_r.c`，通过**初始化序列 `init_sequence_r`** 执行剩余所有关键初始化，**顺序非常重要**：
 
@@ -99,7 +97,7 @@ i.MX6ULL 上电后，首先执行片内 Boot ROM 固化的启动代码。它会�
 
 ------
 
-#### 6. 主循环 `main_loop`
+### 6. 主循环 `main_loop`
 
 所有初始化完成后，U-Boot 进入 `common/main.c` 的 `main_loop()`：
 
@@ -124,6 +122,10 @@ i.MX6ULL 上电后，首先执行片内 Boot ROM 固化的启动代码。它会�
   - 加载设备树 (`loadfdt`) 和内核镜像 (`loadimage`) 到内存，再通过 `bootz` 跳转到内核入口，交出控制权。
 
 在uboot成功启动后, 实际上就会按照这个主循环的内容开始运行, 如果用户在扫描周期内没有输入, 则会进入上面的逻辑运行`Loadbootscript/loadImage/netboot`三种情况, 而这三种情况到底会运行那一个, 实际上就是根据两个重要的环境变量`bootcommand`和`bootargs`决定的, 这里可以接着展开.
+
+## 源码分析uboot启动流程
+
+
 
 
 
