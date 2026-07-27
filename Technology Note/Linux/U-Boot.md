@@ -6,7 +6,7 @@
 
 ### 头文件移植(`board_name.h`)
 
-
+path: root_path/include/configs/mx6ullevk.
 
 ### 板机文件移植(`board_name.c`)
 
