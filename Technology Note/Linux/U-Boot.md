@@ -6,7 +6,7 @@
 
 ### 头文件移植(`board_name.h`)
 
-path: root_path/include/configs/mx6ullevk.h, 更改头文件为
+path: root_path/include/configs/mx6ullevk.h, 更改头文件名称为:`mx6ull_alientek_emmc.h`
 
 ### 板机文件移植(`board_name.c`)
 
