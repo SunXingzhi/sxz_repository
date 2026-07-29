@@ -12,7 +12,7 @@ path: root_path/include/configs/mx6ullevk.h, 更改头文件名称为:`mx6ull_al
 
 ### 设备树移植
 
-
+ 
 
 ## U-Boot的工程结构
 
